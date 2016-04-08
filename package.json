@@ -1,0 +1,39 @@
+{
+  "name": "debounce-hashed",
+  "description": "Debounce a function based on a hashing function",
+  "version": "0.1.1",
+  "author": {
+    "name": "Jonathan Ong",
+    "email": "me@jongleberry.com",
+    "url": "http://jongleberry.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonathanong/debounce-hashed.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonathanong/debounce-hashed/issues",
+    "email": "me@jongleberry.com"
+  },
+  "license": "MIT",
+  "_id": "debounce-hashed@0.1.1",
+  "dist": {
+    "shasum": "ecab477e27793b7a187f1ca5d7cbeeeacc0cc203",
+    "tarball": "https://registry.npmjs.org/debounce-hashed/-/debounce-hashed-0.1.1.tgz"
+  },
+  "_from": "debounce-hashed@latest",
+  "_npmVersion": "1.2.21",
+  "_npmUser": {
+    "name": "jongleberry",
+    "email": "jonathanrichardong@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "jongleberry",
+      "email": "jonathanrichardong@gmail.com"
+    }
+  ],
+  "directories": {},
+  "_shasum": "ecab477e27793b7a187f1ca5d7cbeeeacc0cc203",
+  "_resolved": "https://registry.npmjs.org/debounce-hashed/-/debounce-hashed-0.1.1.tgz"
+}

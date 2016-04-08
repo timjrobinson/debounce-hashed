@@ -1,0 +1,11 @@
+{
+  "name": "debounce-hashed",
+  "description": "Debounce a function based on a hashing function",
+  "repo": "jonathanong/debounce-hashed",
+  "version": "0.1.1",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ],
+  "license": "MIT
+}
