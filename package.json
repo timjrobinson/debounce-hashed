@@ -7,6 +7,9 @@
     "email": "me@jongleberry.com",
     "url": "http://jongleberry.com"
   },
+  "scripts": {
+    "test": "node test.js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/timjrobinson/debounce-hashed.git"
@@ -26,5 +29,8 @@
       "email": "tim@timjrobinson.com"
     }
   ],
-  "directories": {}
+  "directories": {},
+  "devDependencies": {
+    "tape": "^4.5.1"
+  }
 }
