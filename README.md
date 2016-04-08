@@ -29,14 +29,15 @@ var pingDebounced2 = debounceHashed(function pingById(userid) {
 }, 100)
 ```
 
-## debounceHashed(fn, hashingfn, wait, [immediate])
+## debounceHashed(fn, hashingfn, wait, [options])
 
 * `fn` - the function to be debounced
 * `hashingFn` - hashing function.
   Receives the same arguments as `fn`.
   Should return a string.
-* `wait`
-* `immediate`
+* `wait` - Time (in milliseconds) to wait before calling the function
+* `options.immediate` - *boolean* - *default: false* - If true the function is called immediately, then not called again if it's called within `wait` ms. 
+* `options.maxWait` - Max time to wait (in milliseconds) before calling the function, even if the debounced function is called repeatadly in < `wait` ms.
 
 # License
 
